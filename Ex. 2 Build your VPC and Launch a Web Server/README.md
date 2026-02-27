@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Elfreeda Jesusha J
+* **Register Number**: 212224040084
+* **Date of Submission**: 27.02.2026
 
 ---
 
@@ -85,13 +85,12 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Log in to the AWS Management Console and create a new VPC with CIDR block 10.0.0.0/16.
+2. Create a public subnet (10.0.1.0/24) inside the VPC, enable auto-assign public IP, create and attach an Internet Gateway,  and configure a Route Table with a default route (0.0.0.0/0) to the Internet Gateway.
+3. Create a Security Group allowing inbound traffic on port 22 (SSH) and port 80 (HTTP).
+4. Launch an EC2 instance (Amazon Linux 2, t2.micro) in the public subnet and attach the Security Group and key pair.
+5. Connect to the EC2 instance, install and start the Apache web server, create a simple HTML page, and verify the web server using the public IP address in a browser.---
 
 ---
 
@@ -99,19 +98,21 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="op1exp2" src="https://github.com/user-attachments/assets/b90b27cc-70b8-4507-b397-d2bc708922f1" />
+
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="op2exp2" src="https://github.com/user-attachments/assets/8a7bf7b5-1d0b-4d49-b7fc-cf2603264d64" />
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="op3exp2" src="https://github.com/user-attachments/assets/41e7b613-4792-4be8-8a5d-be6e76a928b8" />
+
 
 ---
 
