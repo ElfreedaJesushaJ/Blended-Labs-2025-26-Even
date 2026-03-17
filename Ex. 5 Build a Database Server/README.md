@@ -2,10 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
-
+* **Name**: ELFREEDA JESUSHA J
+* **Register Number**: 212224040084
+* **Date of Submission**: 17.03.2026
 ---
 
 ## Objective
@@ -82,13 +81,11 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Create a Security Group for RDS
+2. Create a DB Subnet Group
+3. Launch an RDS MySQL DB Instance
+4. Configure Connectivity and Security
+5. Connect Web App to Database and Test
 
 ---
 
@@ -96,22 +93,26 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="Screenshot 2026-03-17 103809" src="https://github.com/user-attachments/assets/770c726d-a4ae-4b76-af7b-4cca821240ff" />
+
+
 
 ---
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="Screenshot 2026-03-17 105347" src="https://github.com/user-attachments/assets/3a56777e-e46a-4ea4-ae82-5cf005a0f7e1" />
+
 
 ---
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="Screenshot 2026-03-17 110053" src="https://github.com/user-attachments/assets/00b3698d-a244-4942-b4c3-62965e2cc6e9" />
+
 
 ---
 
 ## Result
 
-This experiment demonstrated how to build a database server in AWS using an EC2 instance. By installing and configuring a DBMS, creating a sample database, and testing connectivity, the fundamentals of hosting and managing a cloud-based database server were underst
+This experiment demonstrated how to build a database server in AWS using an EC2 instance. By installing and configuring a DBMS, creating a sample database, and testing connectivity, the fundamentals of hosting and managing a cloud-based database server were understood.
