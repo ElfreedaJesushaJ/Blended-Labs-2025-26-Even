@@ -3,7 +3,7 @@
 ## Title
 
 Scale and Load Balance Your Architecture
-Author : your name   Reg no : yours   Date :
+Author : your name: Elfreeda Jesusha J   Reg no : 212224040084   Date : 18-03-2026
 
 ---
 
@@ -66,12 +66,44 @@ Students test the setup by generating traffic and observing automatic scaling an
 
 ## Workflow (To be filled by Student)
 
-Describe step-by-step how you performed this experiment in your own words.
+1. Open the AWS Management Console and navigate to the EC2 dashboard.
+
+2. In the left panel, select Instances and verify that Web Server 1 is in a running state (2/2 status checks passed).
+
+3. Select Web Server 1, then go to Actions → Image and templates → Create image.
+
+4. Enter the required details:
+
+    Image Name: WebServerAMI
+    Description: Lab AMI for Web Server
+
+5. Click Create image to generate the AMI, which will be used later for Auto Scaling.
 
 ---
 
 ## Output Screenshots 
 
+Creation of AMI from EC2 Instance (Web Server 1)
+
+<img width="1920" height="1200" alt="Screenshot 2026-03-18 215619" src="https://github.com/user-attachments/assets/5f58c654-a9ce-4ff3-976d-ff47915048e7" />
+
+Application Load Balancer and Target Group Configuration
+
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/fff84b04-0112-4c3f-a9a3-b5be068f2d6c" />
+
+Auto Scaling Group with Dynamic Instance Scaling
+
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/d8027cd6-cd85-4d75-ad51-3eff3c958497" />
+
+
+<img width="1920" height="1200" alt="Screenshot 2026-03-18 220907" src="https://github.com/user-attachments/assets/7961ee81-6c2a-42c6-81fe-43b272319d7f" />
+
+
+<img width="1920" height="1200" alt="Screenshot 2026-03-18 221231" src="https://github.com/user-attachments/assets/d13eda4c-f737-40ee-83ba-ac5735066670" />
+
+Instance Termination
+
+<img width="1920" height="1200" alt="Screenshot 2026-03-18 221852" src="https://github.com/user-attachments/assets/33d2295d-0388-4167-8fd1-d2a699bf941d" />
 
 ---
 
